@@ -1,0 +1,35 @@
+
+body { background-color:#EEEEEE; padding:50px; margin:0; color:#333333; font-family:Verdana; font-size:10px;}
+
+ol { padding:0; margin:0; }
+li { list-style-type:none; padding:0; margin:0; }
+
+a { color:#333333; }
+a:hover { color:#EE3333; }
+span.date {display:block; margin-bottom:1em; }
+#myname {  }
+h1 { font-family:Verdana; font-size:10px; color:#EE3333; padding:0; margin:0.25em 0; }
+
+#summary { width:225px; }
+#summary p { font-family:Verdana; font-size:10px; font-weight:bold; padding:0 1em; margin:0.25em 0; }
+
+
+#feature { position:absolute; top:50px; left:300px; width:225px; padding:0 0 0 1em; margin:0; }
+#feature h2 { font-family:Verdana; font-size:10px; color:#EEEEEE; text-transform:lowercase; padding:0; margin:0.25em 0; }
+span.date+a {text-decoration:none; font-weight:bold; }
+#feature li { list-style-type:none; padding:0 0 0 0; margin:0 0 3em 0; }
+
+#history { position:absolute; top:50px; left:550px; width:225px; padding:0 0 3em 1em; margin:0; }
+#history h2 { font-family:Verdana; font-size:10px; color:#EEEEEE; text-transform:lowercase; padding:0; margin:0.25em 0 ; }
+#history p { display:none; }
+#history li { list-style-type:none; padding:0 0 0 0; margin:0 0 1em 0; }
+
+#stylechooser { margin:260px 0 0 0; padding:0 1em; }
+fieldset { border:0; padding:0; margin:0; }
+input, select { color:#333333; background-color:#EEEEEE; }
+
+#contact { width:225px; margin-top:0px; }
+#contact h2 { display:none; }
+
+#contact p { font-family:Verdana; font-size:10px; padding:0 1em; margin:0.25em 0; text-transform:lowercase; color:#EEEEEE; }
+

@@ -1,0 +1,40 @@
+
+body { background-color:#FFFFFF; padding:; margin:0; color:#333333; font-family:Verdana; font-size:10px; background-image:url(happy.gif); background-repeat:no-repeat; background-position:top center;}
+
+ol { padding:0; margin:0; }
+li { list-style-type:none; padding:0; margin:0; }
+div {  }
+
+a { color:#333333; }
+a:hover { color:#EE3333; }
+span.date {  }
+
+#myname { width:29%; margin:46px 0 0 3%; padding:0; }
+h1 { font-family:Verdana; font-size:10px; padding:0; margin:0.25em 0; }
+ 
+#summary { width:29%; margin:0 0 0 3%; padding:0; }
+#summary p { font-family:Verdana; font-size:10px; font-weight:bold; padding:0; margin:0.25em 0; }
+
+
+#feature { width:29%; margin:23px 0 0 3%; padding:0; }
+#feature h2 { display:none;}
+#feature li { list-style-type:none; padding:0; margin:0 0 3em 0; }
+#feature p { margin-top:1em; }
+
+
+#history { position:absolute; top:46px; left:66%; width:29%; margin:0; padding:0; z-index:10;}
+#history h2 { font-family:Verdana; font-size:10px; text-transform:lowercase; padding:0 0 0 2em; margin:0.25em 0 3em 0; }
+#history ol { padding:0 0 0 2em }
+#history p { display:none; }
+#history li { list-style-type:none; padding:0 0 1em 0; margin:0 0 1em 0; }
+#history span.date {  display:block; }
+
+#stylechooser { position:absolute; top:60px; left:33%; width:29%; margin:0; padding:0; z-index:5; text-align:center;}
+fieldset {  border:0; margin:0; padding:300px 0 0 0;   }
+input, select, option { color:#333333; background-color:#FFFFFF; }
+
+#contact { width:29%; margin:0 0 0 3%; padding:0;}
+#contact h2 { display:none; }
+#contact li { list-style-type:none; padding:0; margin:0 0 3em 0; }
+#contact p { }
+

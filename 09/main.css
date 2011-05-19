@@ -1,0 +1,49 @@
+
+
+body { font-family:'Arial Black', sans-serif; font-size:14px; color:#999999; background-color:#AAAAAA; }
+h2 {  }
+
+ol { }
+li { padding-top:0; margin-top:0; list-style-type:none; }
+div {  }
+a { color:#999999; background-color:#CCCCCC; text-transform:uppercase; }
+a:hover {  }
+a:active {  }
+a:visited { } 
+span.date { display:none;  }
+span.date+a { }
+p {  }
+
+#myname { color:#999999; background-color:#CCCCCC; border:1em #999999 solid; width:500px; }
+h1 { font-size:1em; margin:0; padding:1em; text-align:center; }
+
+#summary { position:relative; top:-2em; left:275px; color:#CCCCCC; background-color:#999999; border:1em #CCCCCC solid; width:400px; }
+#summary p { margin:0; padding:1em; text-align:center; }
+
+
+#feature { position:relative; top:-2em; left:0; color:#CCCCCC; background-color:#999999; border:1em #CCCCCC solid; width:600px;}
+#feature h2 { position:relative; top:-2em; left:50px; color:#999999; background-color:#CCCCCC; border:1em #999999 solid; font-size:1em; margin:0; padding:1em; text-align:center; width:450px; }
+#feature li { position:relative; top:-1em; left:100px; color:#CCCCCC; background-color:#999999; border:1em #CCCCCC solid; padding:1em;}
+#feature li * {  }
+#feature li span.date+a {  }
+#feature a { color:#CCCCCC; background-color:#999999; }
+
+#history { position:relative; top:-4em; left:150px; color:#999999; background-color:#CCCCCC; border:1em #999999 solid; width:500px; padding:1em 1em 4em 1em; }
+#history h2 { position:relative; top:-3em; left:-150px; color:#CCCCCC; background-color:#999999; border:1em #CCCCCC solid; font-size:1em; margin:0; padding:1em; text-align:center; width:450px; }
+#history li {  position:relative; top:0; left:0; color:#999999; background-color:#CCCCCC; }
+#history li span.date+a {  }
+#history p {  }
+
+
+#stylechooser { position:relative; top:4em; left:400px; color:#CCCCCC; background-color:#999999; border:1em #CCCCCC solid; width:300px; z-index:30;}
+fieldset { border:0; padding:0; margin:0; padding:1em; text-align:center; }
+input { color:#CCCCCC; background-color:#999999; }
+select, option { color:#CCCCCC; background-color:#999999; }
+
+#contact { position:relative; top:-13em; left:0; color:#CCCCCC; background-color:#999999; border:1em #CCCCCC solid; width:450px; }
+#contact h2 { position:relative; top:0; left:150px; color:#999999; background-color:#CCCCCC; border:1em #999999 solid; font-size:1em; margin:0; padding:1em; text-align:center; width:450px; }
+#contact a { color:#CCCCCC; background-color:#999999; }
+#contact li { padding-right:100px;}
+#contact p { }
+
+

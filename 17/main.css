@@ -1,0 +1,46 @@
+body { padding:0; margin:0; background-color:#E4DDD4; color:#130F0F; font-family:Georgia, serif; font-size:12px; }
+
+ol { padding:0; margin:0; }
+li { padding:0; margin:0; list-style-type:none;}
+
+a { color:#B85004; }
+a:visited { color:#8C6956; }
+a:hover { color:#B85004; }
+
+div {  }
+
+
+#myname { width:539px; padding:0; margin:40px 40px 0 auto; background-image:url(big.jpg); background-repeat:no-repeat;}
+h1 { font-size:36px; color:#E4DDD4; font-family:'Impact',sans-serif; font-weight:normal; padding:207px 0 0 329px; letter-spacing:-1px; }
+
+#summary { display:none;  }
+#summary p { font-size:24px; letter-spacing:1px; word-spacing:1px; color:#FFFF66; font-family:'Georgia'; font-weight:normal; padding:0; margin:0;  }
+
+
+#feature {  width:539px; padding:0; margin:40px 40px 0 auto;}
+#feature h2 { display:none; }
+#feature ol { padding:0; margin:0; }
+#feature li { margin:0.5em 0;}
+#feature li p {  margin:0.25em 0 0 0; line-height:1.4em; }
+#feature span.date { display:none; }
+#feature span.date+a { margin:0.25em 0 0 0; font-size:36px; font-family:'Impact',sans-serif; font-weight:normal; text-transform:lowercase;   } 
+
+
+#history {  width:539px; padding:0 0 20px 0; margin:40px 40px 0 auto; background-image:url(blank.gif); background-repeat:no-repeat; }
+#history h2 { font-size:36px; color:#000000; font-family:'Impact',sans-serif; font-weight:normal; margin:0; padding:4px 0 0 329px; letter-spacing:-1px; text-transform:lowercase; }
+#history ol { width:505px; height:103px; overflow:auto; padding:0; margin:0 16px 25px 16px; }
+#history li { width:480px; margin:0.4em 0; padding:0; }
+#history li p {  margin:0.25em 0 0 0; line-height:1.4em; }
+
+
+#stylechooser { width:539px; padding:0; margin:0 40px 0 auto; }
+fieldset { border:0; padding:0; margin:0; }
+input, select, option { color:#E4DDD4; background-color:#130F0F; }
+
+#contact {  width:539px; padding:0; margin:40px 40px 0 auto; }
+#contact h2 { display:none; }
+#contact ol { padding:0; margin:0; }
+#contact li { margin:0; }
+#contact p { }
+#contact a { }
+

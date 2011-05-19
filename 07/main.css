@@ -1,0 +1,60 @@
+/*
+html {  width:100%; height:100%; padding:0; margin:0; } */
+body  { height:100%; width:100%; padding:0; margin:0;}
+body { color:#000000; background-color:#FFFFFF; font-size:16px; font-family:Verdana; font-weight:bold;}
+h2 {text-align:center; }
+
+ol { padding:0; margin:0; }
+li {  padding:0; margin:0; list-style-type:none; text-transform:lowercase; text-align:center; }
+div { margin:0; padding:0; }
+a {  }
+a:hover {  }
+a:active {  }
+a:visited { } 
+span.date { display:none; }
+span.date+a { }
+p { text-align:center; }
+
+/* IE/PC dislikes position:fixed */
+div { position:absolute; }
+HTML>BODY div { position:fixed;}
+
+#myname { top:0; left:0; width:50%; height:18%; background-color:#76C576; z-index:0;}
+h1 { text-align:center; }
+
+#summary { top:18%; left:0; width:50%; height:18%; background-color:#76C576; z-index:1;}
+#summary p { font-size:16px; line-height:1.2em; font-family:Verdana; margin:0; padding:0;}
+
+
+#feature { top:0%; left:50%; width:50%; height:50%; background-color:#C57676; z-index:3;}
+#feature a { color:#FFFFFF; }
+#feature a:hover { color:#FFFFFF; }
+#feature a:active { color:#FFFFFF; }
+#feature a:visited { color:#FFFFFF; } 
+#feature h2 { color:#FFFFFF; }
+#feature li { padding:1em 0; }
+#feature p { display:none }
+
+#history {  top:50%; left:0%; width:50%; height:50%; background-color:#7676C5; z-index:4;}
+#history a { color:#FFFFFF; }
+#history a:hover { color:#FFFFFF; }
+#history a:active { color:#FFFFFF; }
+#history a:visited { color:#FFFFFF; } 
+#history h2 { color:#FFFFFF; }
+#history li {  }
+#history p { display:none; }
+
+
+#stylechooser {  top:36%; left:0; width:50%; height:14%; background-color:#76C576; color:#000000; text-align:center; z-index:2;}
+fieldset { border:0; padding:0; margin:0;}
+input { font-size:16px; line-height:1.2em; font-family:Verdana; background-color:#76C576; color:#000000; }
+select, option { font-size:16px; line-height:1.2em; font-family:Verdana; background-color:#76C576; color:#000000; }
+
+#contact {  top:50%; left:50%; width:50%; height:50%; background-color:#C5C576; z-index:5;}
+#contact a { color:#000000; }
+#contact a:hover { color:#000000; }
+#contact a:active { color:#000000; }
+#contact a:visited { color:#000000; } 
+#contact h2 { }
+#contact p { padding:1em; }
+

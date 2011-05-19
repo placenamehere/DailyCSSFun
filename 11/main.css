@@ -1,0 +1,43 @@
+
+body { background-color:#AAAAAA; background-image:url(DSCN2287.jpg); background-repeat:no-repeat; padding:0; margin:0; color:#0D151C; font-family:Georgia; font-size:15px;}
+
+ol { padding:0; margin:0; }
+li { padding:0; margin:0 0 0 3em; }
+
+a { color:#0D151C;  }
+a:hover {  }
+span.date { display:none; }
+span.date+a { font-weight:bold; }
+
+
+#myname { display:none; }
+h1 { }
+
+#summary {  width:260px; margin:169px 0 0 115px; padding:0;  }
+#summary p { font-size:17px; padding:0; margin:0; color:rgb(85,76,79); text-transform:capitalize;}
+
+
+#feature {  width:260px; margin:50px 0 0 115px; padding:0;  }
+#feature h2 { font-size:17px; padding:0; margin:0; font-weight:normal; color:rgb(85,76,79); }
+#feature ol {  }
+#feature li {  }
+#feature li p { display:none; }
+
+
+#history {  width:260px; margin:50px 0 0 115px; padding:0; }
+#history h2 { font-size:17px; padding:0; margin:0; font-weight:normal; color:rgb(85,76,79); }
+#history ol {  }
+#history li {  }
+
+#history li p { display:none; }
+
+#stylechooser { position:absolute; top:618px; left:570px; width:190px; margin:0; padding:0; }
+fieldset { border:0; padding:0; margin:0; }
+input, select, option { color:rgb(13,21,28); background-color:rgb(214,157,136); }
+
+#contact {  width:260px; margin:50px 0 0 115px; padding:0; color:rgb(85,76,79); }
+#contact h2 { font-size:17px; padding:0; margin:0; font-weight:normal; }
+#contact li { list-style-type:none; margin:0;}
+#contact p { font-size:12px; }
+#contact a {  }
+

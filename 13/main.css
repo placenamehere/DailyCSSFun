@@ -1,0 +1,42 @@
+html { background-color:#FFFFFF; background-image:url(bkg2.gif); background-repeat:repeat-x; padding:0; margin:0; }
+body { background-image:url(bkgbody.gif); background-repeat:no-repeat; padding:0; margin:0; color:#000000; font-family:Verdana, sans-serif; font-size:10px; border:1px #FFFFFF solid; }
+
+ol { padding:0; margin:0; }
+li { padding:0; margin:0; list-style-type:none;}
+
+a { color:#003300; }
+a:visited { }
+a:hover {  }
+span.date {  }
+span.date+a {  }
+div { }
+
+
+#myname { position:absolute; top:120px; left:1px; margin:0; padding:0; width:252px; text-align:center; }
+h1 { color:#FFFFFF; background-color:#2F2F8A; padding:0; margin:0; font-size:32px; }
+
+#summary { display:none;}
+#summary p {  }
+
+
+#feature { margin:208px 0 0 0; padding:0 20px 0 488px; height:124px; overflow:auto; }
+#feature h2 { font-size:1.0em; }
+#feature li { margin:0 0 5px 0; }
+#feature li p { display:inline; }
+
+
+#history { margin:0; padding:0 20px 0 488px; height:245px; overflow:auto; }
+#history h2 { font-size:1.0em; }
+#history li { margin:0 0 5px 0; }
+#history li p { display:inline; }
+
+#stylechooser { position:absolute; top:82px; left:1px; margin:0; padding:0; width:252px; text-align:center;}
+fieldset { border:0; padding:0; margin:0; }
+input, select, option { color:#FFFFFF; background-color:#51518A; }
+
+#contact { position:absolute; top:520px; left:1px; margin:0; padding:0; width:252px; text-align:center; }
+#contact h2 { display:none; }
+#contact li {  }
+#contact p {  }
+#contact a {  }
+

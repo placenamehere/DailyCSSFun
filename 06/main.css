@@ -1,0 +1,45 @@
+
+
+body { font-family:"Courier New", monospace; font-size:14px; color:#000000; background-color:#FFFFFF; }
+h2 {  }
+
+ol { padding:0; margin:0; }
+li { padding:0; margin:0 0 0 100px; list-style-type:none; }
+div {   }
+a { }
+a:hover {  }
+a:active {  }
+a:visited { } 
+span.date {  display:block; width:90px; text-align:right; position:relative; left:-100px; top:1.2em;  }
+span.date+a { }
+p {  }
+
+#myname {  margin:0 0 0 45%; padding:0 1em; width:50%; background-color:rgb(255,255,50); border-right:4px #000000 dashed;  border-top:4px #000000 dashed;  border-left:4px #000000 dashed; }
+h1 { font-family:'Arial Black'; font-size:26px; color:#000000; text-transform:lowercase; margin:0 0 0 100px; padding:0.25em 0 0 0;}
+
+#summary {display:none; }
+#summary p { }
+
+
+#feature { margin:0 0 0 45%; padding:0 1em; width:50%; background-color:rgb(255,255,50); border-right:4px #000000 dashed;  border-bottom:4px #000000 dashed;  border-left:4px #000000 dashed; }
+#feature h2 { display:none; }
+#feature li {padding:0.4em 0;}
+#feature p {  }
+
+#history { margin:0 0 0 45%; padding:0 1em; width:50%; background-image:url(top_scissors.gif); background-repeat:no-repeat; }
+#history h2 { display:none; }
+#history li { padding:0.4em 0;  }
+#history p { display:none; }
+
+
+#stylechooser { margin:0 0 0 45%; padding:2em 1em; width:50%; }
+fieldset { border:0; padding:0; margin:0 0 0 100px;}
+input { background-color:rgb(255,255,0); color:#000000; }
+select, option { background-color:rgb(255,255,0); color:#000000; }
+
+#contact { margin:0 0 0 45%; padding:0 1em; width:50%; }
+#contact h2 { display:none;}
+#contact li { }
+#contact p { }
+
+

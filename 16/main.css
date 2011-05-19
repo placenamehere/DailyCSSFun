@@ -1,0 +1,52 @@
+body { padding:0; margin:0; background: black url(dance.jpg) 100px 200px no-repeat; color:#CCCCCF; font-family:'Arial Black', Arial, sans-serif; font-size:12px; }
+
+ol { padding:0; margin:0; }
+li { padding:0; margin:0; list-style-type:none;}
+
+a { color:#000000; text-decoration:none; text-transform:uppercase; display:block; padding:0 0 0 600px;}
+
+
+a:visited { color:#000000; }
+a:hover { color:#CAD7EE; }
+a:after { content:".";}
+
+
+
+
+span.date { display:none}
+span.date+a {  }
+
+div {  }
+
+
+#myname {  display:none; }
+h1 { }
+
+#summary {display:none; }
+#summary p { }
+
+
+#feature { width:795px; margin:50px 0 0 0; padding:0;}
+#feature h2 { display:none;  }
+#feature ol { padding:0; margin:0; }
+#feature li {  letter-spacing:0; margin:0; padding:0 0.1em}
+#feature li p { display:none; }
+
+
+#history {  width:795px; margin:0 0 0 0; padding:0;   }
+#history h2 { display:none; }
+#history ol { padding:0; margin:0; }
+#history li { letter-spacing:0; margin:0; padding:0 0.1em }
+#history li p {  display:none; }
+
+#stylechooser {  position:absolute; width:795px; left:0px; top:8px; margin:0; padding:0; }
+fieldset { border:0; padding:0 25px 0 0; margin:0; text-align:right;}
+input, select, option { color:#CAD7EE; background-color:#000000; }
+
+#contact { display:none; }
+#contact h2 {}
+#contact ol { }
+#contact li {  }
+#contact p { }
+#contact a {}
+

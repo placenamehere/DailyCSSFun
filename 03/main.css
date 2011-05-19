@@ -1,0 +1,43 @@
+
+
+body { color:#000000; background-color:#FFFFFF; text-align:right;}
+h2 { }
+
+ol { padding:0; margin:0; }
+li { border:1px #FFFFFF dotted; padding:0; margin:0; list-style-type:none; text-transform:lowercase; }
+div { margin:0; padding:0; }
+a {  font-size:55px; font-family:Impact; color:#0000FF; text-decoration:underline; display:block; padding:0; margin:0;}
+a:hover { color:#FF0000; }
+a:active { color:#FFFFFF; }
+a:visited { color:#FF00FF; text-decoration:none;} 
+span.date { display:none; }
+span.date+a { }
+p {  }
+
+#myname { display:none; }
+h1 {  }
+
+#summary {  }
+#summary p { font-size:55px; line-height:1.2em; font-family:Impact; margin:0; padding:0;}
+
+
+#feature { }
+#feature h2 { display:none; }
+#feature li {  }
+#feature p { display:none }
+
+#history {  }
+#history h2 { display:none; }
+#history li {  }
+#history p { display:none; }
+
+
+#stylechooser { text-align:right;  }
+fieldset { border:0; padding:0; margin:0;}
+input { font-size:55px; line-height:1.2em; font-family:Impact; color:#000000; background-color:#FFFFFF; }
+select, option { font-size:55px; line-height:1.2em; font-family:Impact; color:#000000; background-color:#FFFFFF; }
+
+#contact { display:none; }
+#contact h2 { }
+#contact p {  }
+

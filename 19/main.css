@@ -1,0 +1,22 @@
+body,h1,h2,p,ol,li,a { font-family:Georgia; }
+
+body { color:#333333; background-color:rgb(194,203,207); padding:0; margin:20px 40px 20px 40px; }
+h1 { font-family:Georgia; font-size:100px; line-height:1em; color:rgb(173,181,184); padding:0; margin:0 0 -0.38em -2px; }
+h2 { display:none; }
+p { display:inline; font-size:13px; }
+#summary p { display:block; font-family:Georgia; font-size:22px; line-height:1.2em; color:rgb(173,181,184); padding:4px; letter-spacing:5.5px}
+span.date { color:rgb(173,181,184);}
+span.date+a { color:rgb(80,0,0); font-weight:bolder;  }
+a { color:#333333 }
+a:visited { color:#333333; }
+a:hover { color:rgb(160,80,80); }
+
+ol,li { list-style-type: none; }
+ol { margin: 2em 3em; padding:0; }
+li { margin-bottom: 0.6em; }
+span.decender { word-spacing: 15px;  }
+span.date { font-size:10px; font-weight:bolder; }
+
+fieldset { border:0;  margin: 1em 3em; padding:0; }
+input { background-color:rgb(194,203,207); color:#333333; }
+select, option { background-color:rgb(194,203,207); color:#333333; }

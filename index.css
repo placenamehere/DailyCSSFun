@@ -1,0 +1,18 @@
+body,h1,h2,p,ol,li,a { font-family:Georgia; }
+
+body { color:#333333; background-color:rgb(194,203,207); padding:0; margin:20px 40px 20px 40px; }
+h1 { font-family:Georgia; font-size:100px; line-height:1em; color:rgb(173,181,184); padding:0; margin:0 0 -0.38em -2px; }
+p { font-size:13px; }
+#summary p { display:block; font-family:Georgia; font-size:22px; line-height:1.2em; color:rgb(173,181,184); padding:4px; letter-spacing:5.5px}
+a { color:#000000; font-weight:bolder;  }
+
+#intro h2 { display:none; }
+
+ul { list-style-type: none; }
+ol { margin-bottom: 3em; }
+li { margin-bottom: 0.3em; }
+span.decender { word-spacing: 15px;  }
+span.info { font-size:10px; font-weight:bolder; }
+
+.explanation { font-size:0.85em; margin-bottom:1em;}
+.explanation a { color:#333333;}

@@ -1,0 +1,44 @@
+
+body { background-color:#554C4F; background-image:url(bkg.gif); background-repeat:no-repeat; padding:0; margin:0; color:#BBBBBB; font-family:Monaco, 'Courier New', monospace; font-size:11px;}
+
+ol { padding:0; margin:0; }
+li { padding:0; margin:0; list-style-type:none;}
+
+a { color:#F7F5BF; }
+a:visited { color:#FABDBE;}
+a:hover { color:#F7F7F7; }
+span.date {  }
+span.date+a {  }
+
+
+#myname { text-align:center; margin:172px 0 0 76px; width:122px; padding:0; }
+h1 { font-size:1.0em; padding:0; margin:0; }
+
+#summary { text-align:center; margin:2em 0 0 76px; width:122px; padding:0;  }
+#summary p { padding:0; margin:0; }
+
+
+#feature {  text-align:center; margin:2em 0 0 30px; width:214px; padding:0;  }
+#feature h2 { font-size:1.0em; }
+#feature ol {  }
+#feature li {  }
+#feature li p {  }
+
+
+#history { text-align:center; margin:2em 0 0 20px; width:234px; padding:0; }
+#history h2 { font-size:1.0em; }
+#history span.date { display:none; }
+#history ol {  }
+#history li { display:inline; }
+#history li p { display:none; }
+
+#stylechooser { position:absolute; left:310px; top:100px; padding:0; margin:0; width:230px; }
+fieldset { border:0; padding:0; margin:0; }
+input, select, option { color:#554C4F; background-color:#76C8B0; }
+
+#contact { text-align:center; margin:2em 0 0 20px; width:234px; padding:0 0 2em 0; }
+#contact h2 { font-size:1.0em; }
+#contact li {  }
+#contact p {  }
+#contact a {  }
+

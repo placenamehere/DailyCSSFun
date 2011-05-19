@@ -1,0 +1,42 @@
+
+body { background-color:#FFFFFF; background-image:url(DSCN1589.jpg); background-repeat:no-repeat; padding:50px; margin:0; color:#4E5D73; font-family:Verdana; font-size:10px;}
+
+ol { padding:0; margin:0; }
+li { list-style-type:none; padding:0; margin:0; }
+
+a { color:#4E5D73; }
+a:hover { color:#000000; }
+span.date {display:block; margin-bottom:1em; }
+span.date+a { color:#333333; text-decoration:none; font-weight:bold; }
+
+
+#myname { display:none; }
+h1 { }
+
+#summary { position:absolute; top:35px; left:15px; width:717px;}
+#summary p { color:#94B1D1; font-family:Georgia, serif; font-size:40px; text-transform:lowercase; font-weight:bold; padding:0; margin:0; }
+
+
+#feature { position:absolute; top:100px; left:100px; width:225px; padding:0 0 3em 1em; margin:0; }
+#feature h2 { color:#333333; font-family:Georgia, serif; font-size:40px; text-transform:lowercase; padding:0; margin:0; }
+#feature ol { color:#4E5D73; background-color:#9AAFC8; width:250px; height:220px; overflow:auto; border:1px #000000 dotted; margin:-15px 0 0 10px; }
+#feature li { list-style-type:none; padding:0; margin:6px 20px 6px 6px; }
+
+
+#history { position:absolute; top:100px; left:400px; padding:0 0 3em 1em; margin:0; }
+#history h2 { color:#333333; font-family:Georgia, serif; font-size:40px; text-transform:lowercase; padding:0; margin:0; }
+#history ol { color:#4E5D73; background-color:#9AAFC8; width:250px; height:220px; overflow:auto; border:1px #000000 dotted; margin:-15px 0 0 10px; }
+#history li { list-style-type:none; padding:0; margin:6px 20px 6px 6px; }
+
+#history p { }
+
+#stylechooser { position:absolute; top:370px; left:410px; padding:0 0 3em 1em; margin:0; width:250px; text-align:right;  }
+fieldset { border:0; padding:0; margin:0; }
+input, select, option { color:#333333; background-color:#A8B3C2; }
+
+#contact { position:absolute; top:515px; left:110px; margin:0; padding:0; width:600px; }
+#contact h2 { display:none; }
+
+#contact p { font-family:Verdana; font-size:10px; padding:0 1em; margin:0.25em 0; text-transform:lowercase; color:#362F29;}
+#contact a { color:#362F29; }
+

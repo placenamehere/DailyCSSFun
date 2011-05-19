@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<title>~cac6982 | 200202 | Daily CSS Fun</title>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+
+<div id="myname">
+	<h1>~cac6982</h1>
+</div>
+
+<div id="summary">
+	<p>Daily CSS Fun</p>
+</div>
+
+<div id="intro">
+	<h2>Intro</h2>
+	<p>Every day in the month of February I will be posting a redesign of the index page for this site. In doing so I have held myself to only one rule - the only thing i can change from day to day is the <q>style</q> of the document. From day to day and design to design the underlying html document will not change at all.  Why do this you ask? Well, since I wrote the article "Your CSS Bores Me" for <a href="http://www.ChunkySoup.net">ChunkySoup.net</a> I've gotten a lot of feedback from folks who are not sure what CSS can do. While I don't claim to be a designer I think its time to at least attempt to put my money where my mouth is and try and rely on Cascading Style Sheets exclusively.</p>
+	
+	<p>While these CSS documents will never be too difficult, throughout the course of the month I will also be posting explanations and sketches of what each different style sheet does. These may not come in too timely a fashion (I want you folks to view-source and try and figure things out yourself). However, the detailed explanations will come because my primary goal here is to create a repository of well documented CSS techniques.</p>
+</div>
+
+<div id="update">
+	<h2>Update 02/27</h2>
+	<p>Well, it's not very difficult to see that I didn't exactly stick to my daily upload. It wasn't out of lack of creativity, or due to CSS itself. I really has more to do with the fact that I got pretty bored of looking at this same document over and over again. So instead of the previous scheduled 28 layouts I'm gonna cap the layouts at 20 for the month and concentrate on the explanation of each layout. As this experiment was always less about a <q>nifty style sheet switcher</q> and more about proving that CSS is flexible and worthy of exploration I'm perfectly ok with this change.</p>
+</div>
+
+<div id="explanation">
+	<h2>Explanation</h2>
+	<p>To begin with it would be best to familiarize yourself with the document I'm going to be working with. It's important that we not only have a validated HTML document, but also that the html tags used were chosen to convey structure and meaning. Can we say <strong>markup</strong> boys &amp; girls? While I encourage you to turn to the View-Source command in your favorite borwser to look at the HTML I've provided a few other ways of looking at the document.</p>
+	<ul>
+		<li><a href="fun.php?sheet=00">document without styles</a> (sheet 00)</li>
+		<li><a href="docs/mozdom_divs.gif">basic document structure</a> (via the Mozilla DOM Inspector)</li>
+		<li><a href="docs/mozdom_all.gif">expanded document structure</a> (via the Mozilla DOM Inspector)</li>
+	</ul>
+	<p>Once we are comfortable with this document we can then focus our use of CSS to override a browsers default presentation of each of these elements. At its core, CSS is nothing more then that - taking an element out of its normal flow in the document using positioning; changing the elements default behavior using display; applying colors and background images to elements; changing font sizing, faces and spacing. Below, along with each style sheet, I will try and point out the main position structure used. Most of the time that can be done just by placing borders on each div element on the page. I will also highlight other noteworthy changes. <a href="mailto:caca6982@neuralust.com">Questions are always welcome</a>.</p>
+</div>
+
+<div id="links">
+	<h2>Project Links</h2>
+	<ol>
+		<li><span class="posted"><a href="fun.php?sheet=01">2002.02.01</a>:</span>
+			<p>I've decided to start off simple. This three column layout is created by pulling some of the main content out of the normal flow of the document.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="01/main.css">raw CSS Document</a></li>
+					<li><a href="docs/sheet-01.gif">screenshot with CSS code overlayed</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=02">2002.02.02</a>:</span>
+			<p>This is the first of many of the style sheets that will rely on the ability to add background images to most any object. If you're looking at the source pay careful attention to the manipulation of the boxes for the opening of the page.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="02/main.css">raw CSS Document</a></li>
+					<li><a href="docs/sheet-02.gif">screenshot with CSS code overlayed</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=03">2002.02.03</a>:</span>
+			<p>In an effort to prove that most anything can be manipulated with CSS I've carved the page down to its barest essentials using display:none.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="03/main.css">raw CSS Document</a></li>
+					<li><a href="docs/sheet-03.gif">screenshot with CSS code overlayed</a></li>
+				</ul>
+
+			</div>
+		</li>
+		
+		<li><span class="posted"><a href="fun.php?sheet=04">2002.02.04</a>:</span> <p>Typographically this is a pretty simple style sheet, nothing we haven't seen before. With it I wanted to hammer home the use of padding, margins &amp; background images to introduce graphical content to a document.</p></li>
+		<li><span class="posted"><a href="fun.php?sheet=05">2002.02.05</a>:</span>
+			<p>Building on a few of the techniques used in the previous style sheets, but also relied heavily on displaying block elements as inline ones instead.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="05/main.css">raw CSS Document</a></li>
+					<li><a href="docs/sheet-05-order.gif">explanation of use of floats</a></li>
+					<li><a href="docs/sheet-05-content.gif">screenshot showing before and after</a> (currently Mozilla &amp; Opera only)</li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=06">2002.02.06</a>:</span>
+			<p>Well, by now you can see the types of things going on. A few things to look out for in this design are the converting of dates to blocks and then moving them left and <strong>down</strong> to line up with the next piece of info &amp; setting the margins to deal. I also have focused a bit on how the boxes sit next to each other - the borders on the first two, and the scissors as background image of the third. Browser Note: I think IE/mac deals with the connecting dashed borders best, on other browsers it seems to be a coincidence of font sizes.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="06/main.css">raw CSS Document</a></li>
+					<li><a href="docs/sheet-06-divs.gif">screenshot showing connecting DIVs</a></li>
+					<li><a href="docs/sheet-06-date.gif">screenshot showing realignment of date</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=07">2002.02.07</a>:</span> <p>In anticipation of the next few layouts which will be primarily fixed sized layouts I decided to take a drastically different approach and make a totally flexible one. Updated 2002.03.09 to use position:fixed in all but IE/PC.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="07/main.css">raw CSS Document</a></li>
+					
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=08">2002.02.08</a>:</span>
+			<p>In this layout I've manipulated a bunch of the boxes to place their background images where I wanted them. Watchout in IE/PC as it didn't like my top area much, so I've used overflow:auto to keep that section from overlapping the archives. Note for those doing this for real, overflow auto works real well to hold layouts together when users enlarge text.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="08/main.css">raw CSS Document</a></li>
+					<li><a href="docs/sheet-08.gif">screenshot with CSS code overlayed</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=09">2002.02.09</a>:</span> <p>I really liked where this was going. The idea was obviously to use borders as the main design element. I guess maybe I didn't have the patience to really nail it.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="09/main.css">raw CSS Document</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=10">2002.02.10</a>:</span> <p>Since some of these are stretching into the odd and non-realistic I'm going to go back to using photographs in the next few layouts. In this docuement the inset scrollbars are created via overflow:auto & the over lapping of content and headers is done with negative margins.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="10/main.css">raw CSS Document</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=11">2002.02.11</a>:</span> <p>With the focus on working with the image there really wasn't anything difficult or tricky going on with the styles here. But that's ok by me.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="11/main.css">raw CSS Document</a></li>
+					
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=12">2002.02.18</a>:</span> <p>Getting back into the swing of things with something simple. Thanks to <a href="http://www.auto-illustrator.com/">auto-illustrator</a> for the visuals. [As a few have noticed I've fallen behind. Came down with a bit of a flu bug and have been draggin my feet. Rest assured, I'll catch up].</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="12/main.css">raw CSS Document</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=13">2002.02.18</a>:</span> <p>This sheet shows a pretty simple combination of positioned and non positioned elements. But the interesting bit lies in the use of background images on both the HTML and BODY elements. In doing this I avoided the need to create a 2000+px wide image to cover all resolutions.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="13/main.css">raw CSS Document</a></li>
+					
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=14">2002.02.18</a>:</span> <p>Wow... all those horizontal percentages seemed to have added up to something postable. Go figure. Aside from the reliance on percentage widths there really isn't anthing special happening.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="14/main.css">raw CSS Document</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=15">2002.02.19</a>:</span> <p>Just a simple layout with an &quot;airy&quot; feel. Thought it fit with this photo I had taken yesterday.  This layout combines the relative positioning technique used in the 2nd layout and the background image use of the 4th.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="15/main.css">raw CSS Document</a></li>
+					
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=16">2002.02.20</a>:</span> <p>I stared at this photo for about an hour after I put it on its black canvas. The whole time wondering how I could incorporate the content of the page without detracting from the image. In the end I kinda cheated.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="16/main.css">raw CSS Document</a></li>
+					<li><a href="http://bugzilla.mozilla.org/show_bug.cgi?id=127516">Bugzilla bug #127516</a> - The right aligned form elements dissapear in Mozilla. DOH!</li>
+					
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=17">2002.02.22</a>:</span> <p>You know, sometimes you just have to let IE6/PC be IE6/PC. While I was surprised that it handled right aligning the content via margin:auto*) it failed once again on the + selector. I can still live with the results. *Since originally writing this I have learned that IE/PC handles margin:auto properly if set explicitly for margin-left and margin-right.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="17/main.css">raw CSS Document</a></li>
+					
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=18">2002.02.24</a>:</span> <p>It's freakishly spring-like outside this week so I thought I'd be cheery (sorta). Happy face courtesy the plastic bag that yesterday's chinese food came in. Centering of said face courtesy background-position.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="18/main.css">raw CSS Document</a></li>
+				</ul>
+
+			</div>
+		</li>
+		<li><span class="posted"><a href="fun.php?sheet=19">2002.02.28</a>:</span> <p>In a return to the style of the past I went back to my default grey on blue scheme.</p>
+			<div class="explanation">
+				<ul>
+					<li><a href="19/main.css">raw CSS Document</a></li>
+					
+				</ul>
+
+			</div>
+		</li>
+	</ol>
+</div>
+</body>
+</html>
